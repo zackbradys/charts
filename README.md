@@ -9,7 +9,6 @@ contact: zack.brady@rancherfederal.com
 ### Table of Contents
 * [About Me](#about-me)
 * [Configuration](#configuration)
-* [Extras](#extras)
 
 ## About Me
 
@@ -21,6 +20,3 @@ A little bit Zack Brady, his history, and what he's done in the industry.
 - Active Volunteer Firefighter/EMT
 
 ## Configuration
-
-
-## Extras
