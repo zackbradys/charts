@@ -3,5 +3,5 @@ name: rancher-demo-app
 description: Rancher Federal Demo Application
 icon: https://raw.githubusercontent.com/zackbradys/helm-charts/charts/rancher-demo-app/rfed-logo-stacked.png
 type: application
-version: 1.0.1
+version: 1.0.0
 appVersion: 1.0.0
