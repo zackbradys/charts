@@ -4,7 +4,7 @@ Rancher-Demo-App Chart
 
 | Type | Chart Version | App Version |
 | ---- | ------------- | ----------- |
-| application | `1.2.5` | `1.0.0` |
+| application | `1.2.5` | `1.1.0` |
 
 ## Installing the Chart
 ```bash
@@ -27,12 +27,12 @@ The following table lists the configurable parameters of the Rancher-demo-app ch
 | --------- | ------- | ----------- |
 | `replicaCount` | `6` |  |
 | `image.repository` | `"zackbradys/rancher-demo-app"` |  |
-| `image.tag` | `""` |  |
-| `image.pullPolicy` | `"IfNotPresent"` |  |
+| `image.tag` | `"1.1.0"` |  |
+| `image.pullPolicy` | `"Always"` |  |
 | `imagePullSecrets` | `[]` |  |
 | `nameOverride` | `""` |  |
 | `fullnameOverride` | `""` |  |
-| `app.localization.title` | `"Rancher Federal Demo"` |  |
+| `app.localization.title` | `"Rancher Federal Demo App"` |  |
 | `app.localization.pets` | `"cows"` |  |
 | `app.localization.color` | `"black"` |  |
 | `service.type` | `"ClusterIP"` |  |
