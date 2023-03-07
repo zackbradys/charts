@@ -4,7 +4,7 @@ Rancher-Demo-App Chart
 
 | Type | Chart Version | App Version |
 | ---- | ------------- | ----------- |
-| application | `1.2.1` | `1.0.0` |
+| application | `1.2.5` | `1.0.0` |
 
 ## Installing the Chart
 ```bash
@@ -33,15 +33,15 @@ The following table lists the configurable parameters of the Rancher-demo-app ch
 | `nameOverride` | `""` |  |
 | `fullnameOverride` | `""` |  |
 | `app.localization.title` | `"Rancher Federal Demo"` |  |
-| `app.localization.pets` | `"cows"` | available pets include 'cows' and 'chameleons' and possibly 'cowmeleons' |
-| `app.localization.color` | `"black"` | container background color (any color name from the CSS pallete) |
+| `app.localization.pets` | `"cows"` |  |
+| `app.localization.color` | `"black"` |  |
 | `service.type` | `"ClusterIP"` |  |
 | `service.port` | `80` |  |
 | `service.nodePort` | `""` |  |
-| `ingress.enabled` | `true` |  |
+| `ingress.enabled` | `false` |  |
 | `ingress.annotations` | `{}` |  |
 | `ingress.paths` | `[]` |  |
-| `ingress.host` | `"rancher-demo.7310hargrove.court"` |  |
+| `ingress.host` | `""` |  |
 | `ingress.tls` | `[]` |  |
 | `resources` | `{}` |  |
 | `nodeSelector` | `{}` |  |
