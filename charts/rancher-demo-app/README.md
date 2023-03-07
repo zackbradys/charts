@@ -4,7 +4,7 @@ Rancher-Demo-App Chart
 
 | Type | Chart Version | App Version |
 | ---- | ------------- | ----------- |
-| application | `1.0.0` | `1.0.0` |
+| application | `1.2.1` | `1.0.0` |
 
 ## Installing the Chart
 ```bash
@@ -27,7 +27,7 @@ The following table lists the configurable parameters of the Rancher-demo-app ch
 | --------- | ------- | ----------- |
 | `replicaCount` | `6` |  |
 | `image.repository` | `"zackbradys/rancher-demo-app"` |  |
-| `image.tag` | `"1.0.0"` |  |
+| `image.tag` | `""` |  |
 | `image.pullPolicy` | `"IfNotPresent"` |  |
 | `imagePullSecrets` | `[]` |  |
 | `nameOverride` | `""` |  |
