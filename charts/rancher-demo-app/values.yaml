@@ -2,7 +2,7 @@ replicaCount: 6
 
 image:
   repository: zackbradys/rancher-demo-app
-  tag: "1.0.0"
+  tag: ""
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -22,8 +22,7 @@ service:
 
 ingress:
   enabled: true
-  annotations:
-    {}
+  annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   paths: []
@@ -33,8 +32,7 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-resources:
-  {}
+resources: {}
   # limits:
   #  cpu: 100m
   #  memory: 128Mi
