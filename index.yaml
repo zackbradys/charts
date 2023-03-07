@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  rancher-demo-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-03-07T16:59:19.296996817Z"
+    description: Rancher Federal Demo Application
+    digest: 8649f04074f6bcc684efb881194aa823779093de71753b1af4ad66cf3f331a06
+    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/charts/rancher-demo-app/rfed-logo-stacked.png
+    name: rancher-demo-app
+    type: application
+    urls:
+    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.0.1/rancher-demo-app-1.0.1.tgz
+    version: 1.0.1
+generated: "2023-03-07T16:59:19.297009818Z"
