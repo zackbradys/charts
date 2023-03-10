@@ -29,8 +29,8 @@ helm repo update
 ```
 
 ### Adding the Helm Chart via Rancher Manager:
-1. Authenticated into the Rancher Manager UI
-2. Open the downstream cluster
+1. Authenticate into the Rancher Manager UI
+2. Open the local cluster or downstream cluster
 3. Click into Apps -> Charts -> Repositories 
 4. Click "Create" and enter the following information:
 
