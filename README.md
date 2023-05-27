@@ -12,7 +12,6 @@ contact: zack.brady@rancherfederal.com
 * [Installation](#installation)
 
 ## About Me
-
 A little bit Zack Brady, his history, and what he's done in the industry. 
 - DOD/IC Contractor
 - U.S. Military Veteran
@@ -42,5 +41,4 @@ Authentication: None
 ```
 
 ## Installation
-
-Install via the Helm CLI or the Rancher Manager. Instructions are a WIP
+Install via the Helm CLI or the Rancher Manager. Instructions are a WIP!
