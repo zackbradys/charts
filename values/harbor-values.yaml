@@ -1,0 +1,5 @@
+### Helm Chart Values
+### for Harbor Registry
+
+### See the default values --> https://github.com/goharbor/harbor-helm/blob/master/values.yaml
+

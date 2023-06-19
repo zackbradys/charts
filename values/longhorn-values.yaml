@@ -1,0 +1,5 @@
+### Helm Chart Values
+### for Rancher Longhorn
+
+### See the default values --> https://github.com/longhorn/longhorn/blob/master/chart/values.yaml
+

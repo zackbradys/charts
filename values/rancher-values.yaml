@@ -1,0 +1,5 @@
+### Helm Chart Values
+### for the Rancher Multi-Cluster Manager
+
+### See the default values --> https://github.com/rancher/rancher/blob/release/v2.7/chart/values.yaml
+

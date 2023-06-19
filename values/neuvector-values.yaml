@@ -1,0 +1,5 @@
+### Helm Chart Values
+### for Rancher NeuVector
+
+### See the default values --> https://github.com/neuvector/neuvector-helm/blob/master/charts/core/values.yaml
+
