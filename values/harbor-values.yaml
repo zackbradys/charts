@@ -1,5 +1,27 @@
 ### Helm Chart Values
 ### for Harbor Registry
 
+### helm get values -o yaml harbor -n harbor-system > harbor-values.yaml
 ### See the default values --> https://github.com/goharbor/harbor-helm/blob/master/values.yaml
 
+expose:
+  ingress:
+    hosts:
+      core: harbor.rancherfederal.io
+  tls:
+    auto:
+      commonName: harbor.rancherfederal.io
+    certSource: secret
+    secret:
+      secretName: tls-harbor-certs
+externalURL: https://harbor.rancherfederal.io
+harborAdminPassword: Pa22word
+notary:
+  enabled: false
+persistence:
+  enabled: true
+  persistentVolumeClaim:
+    registry:
+      size: 100Gi
+trivy:
+  enabled: false

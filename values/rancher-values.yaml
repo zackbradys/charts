@@ -1,5 +1,27 @@
 ### Helm Chart Values
 ### for the Rancher Multi-Cluster Manager
 
+### helm get values -o yaml rancher -n cattle-system > rancher-values.yaml
 ### See the default values --> https://github.com/rancher/rancher/blob/release/v2.7/chart/values.yaml
 
+auditLog:
+  destination: hostPath
+  level: 2
+bootstrapPassword: Pa22word
+carbide:
+  whitelabel:
+    image: rgcrprod.azurecr.us/carbide/carbide-whitelabel
+global:
+  cattle:
+    url: https://rancher.rancherfederal.io
+hostname: rancher.rancherfederal.io
+ingress:
+  tls:
+    source: secret
+privateCA: true
+rancherImage: rgcrprod.azurecr.us/rancher/rancher
+ranchersso:
+  enabled: true
+rbac: true
+replicas: 3
+systemDefaultRegistry: rgcrprod.azurecr.us

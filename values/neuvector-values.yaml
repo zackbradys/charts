@@ -1,5 +1,45 @@
 ### Helm Chart Values
 ### for Rancher NeuVector
 
+### helm get values -o yaml neuvector -n cattle-neuvector-system > neuvector-values.yaml
 ### See the default values --> https://github.com/neuvector/neuvector-helm/blob/master/charts/core/values.yaml
 
+controller:
+  image:
+    repository: neuvector/controller
+  pvc:
+    capacity: 1Gi
+    enabled: true
+  ranchersso:
+    enabled: true
+cve:
+  scanner:
+    runAsUser: 5400
+  updater:
+    image:
+      repository: neuvector/updater
+    runAsUser: 5400
+enforcer:
+  image:
+    repository: neuvector/enforcer
+global:
+  cattle:
+    url: https://rancher.rancherfederal.io
+imagePullSecrets: regsecret
+k3s:
+  enabled: true
+  runtimePath: /run/k3s/containerd/containerd.sock
+manager:
+  image:
+    repository: neuvector/manager
+  ingress:
+    enabled: true
+    host: neuvector.rancherfederal.io
+    secretName: tls-neuvector-certs
+    tls: true
+  runAsUser: 5400
+  svc:
+    type: ClusterIP
+psp: true
+rbac: true
+registry: rgcrprod.azurecr.us
