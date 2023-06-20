@@ -1,22 +1,22 @@
 questions:
   - variable: ingress.enabled
-    description: "Create an ingress endpoint for this app"
+    description: "Create an ingress for the application."
     label: Enable Ingress
     show_subquestion_if: true
     type: boolean
     group: "Ingress Configuration"
     subquestions:
       - variable: ingress.host
-        description: "Enter the DNS name for the ingress endpoint. Leave the default to automatically generate a valid DNS name."
+        description: "Enter the DNS Name for ingress. Leave the default to automatically generate a valid DNS name."
         type: string
-        label: Ingress Endpoint DNS
+        label: Ingress DNS Name
   - variable: app.localization.title
-    description: "Customize the title displayed in the application UI"
+    description: "Customize the title displayed in the application."
     type: string
     label: Localized Title
     group: "App Configuration"
   - variable: app.localization.pets
-    description: "Pick your favourite container pet!"
+    description: "Choose your favorite container pet to display!"
     type: enum
     options:
       - "cows"
@@ -25,7 +25,7 @@ questions:
     label: "Container Pet"
     group: "App Configuration"
   - variable: app.localization.color
-    description: "Add some color to the mix (specify a CSS color name)"
+    description: "Add some color to the mix (css color value)."
     type: string
     label: Container Color
     group: "App Configuration"

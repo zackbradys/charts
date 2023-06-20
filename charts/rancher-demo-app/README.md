@@ -1,10 +1,9 @@
 Rancher-Demo-App Chart
 ----------------------------------------------
 
-
 | Type | Chart Version | App Version |
 | ---- | ------------- | ----------- |
-| application | `1.2.5` | `1.1.0` |
+| application | `1.4.0` | `1.1.0` |
 
 ## Installing the Chart
 ```bash
@@ -47,4 +46,3 @@ The following table lists the configurable parameters of the Rancher-demo-app ch
 | `nodeSelector` | `{}` |  |
 | `tolerations` | `[]` |  |
 | `affinity` | `{}` |  |
-
