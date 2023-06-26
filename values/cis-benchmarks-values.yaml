@@ -1,0 +1,10 @@
+global:
+  cattle:
+    clusterId: local
+    clusterName: local
+    rkePathPrefix: ""
+    rkeWindowsPathPrefix: ""
+    systemDefaultRegistry: rgcrprod.azurecr.us
+    systemProjectId: p-rg6bv
+    url: https://rancher.rancherfederal.io
+  systemDefaultRegistry: rgcrprod.azurecr.us

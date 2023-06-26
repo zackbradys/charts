@@ -1,0 +1,46 @@
+global:
+  cattle:
+    clusterId: local
+    clusterName: local
+    rkePathPrefix: ""
+    rkeWindowsPathPrefix: ""
+    systemDefaultRegistry: rgcrprod.azurecr.us
+    systemProjectId: p-rg6bv
+    url: https://rancher.rancherfederal.io
+  systemDefaultRegistry: rgcrprod.azurecr.us
+grafana:
+  persistence:
+    accessModes:
+    - ReadWriteOnce
+    annotations: null
+    enabled: true
+    finalizers: null
+    size: 50Gi
+    storageClassName: longhorn
+    subPath: null
+    type: pvc
+prometheus:
+  prometheusSpec:
+    enableAdminAPI: true
+    evaluationInterval: 1m
+    retentionSize: 50GiB
+    scrapeInterval: 1m
+    storageSpec:
+      volumeClaimTemplate:
+        spec:
+          accessModes:
+          - ReadWriteOnce
+          resources:
+            requests:
+              storage: 50Gi
+          storageClassName: longhorn
+rke2ControllerManager:
+  enabled: true
+rke2Etcd:
+  enabled: true
+rke2IngressNginx:
+  enabled: true
+rke2Proxy:
+  enabled: true
+rke2Scheduler:
+  enabled: true
