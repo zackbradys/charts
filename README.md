@@ -1,7 +1,7 @@
 ---
 title: Helm Charts Repository
 author: Zack Brady - Field Engineer
-contact: zack.brady@rancherfederal.com
+contact: zack.brady@ranchergovernment.com
 ---
 
 # Helm Charts Repository
@@ -12,7 +12,7 @@ contact: zack.brady@rancherfederal.com
 * [Installation](#installation)
 
 ## About Me
-A little bit Zack Brady, his history, and what he's done in the industry. 
+A little bit Zack Brady, his history, and what he's done in the industry.
 - DOD/IC Contractor
 - U.S. Military Veteran
 - Open-Source Contributor
@@ -30,7 +30,7 @@ helm repo update
 ### Adding the Helm Chart via Rancher Manager:
 1. Authenticate into the Rancher Manager UI
 2. Open the local cluster or downstream cluster
-3. Click into Apps -> Charts -> Repositories 
+3. Click into Apps -> Charts -> Repositories
 4. Click "Create" and enter the following information:
 
 ```bash
