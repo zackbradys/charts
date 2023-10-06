@@ -1,5 +1,4 @@
-Rancher-Demo-App Chart
-----------------------------------------------
+# Rancher-Demo-App Helm Chart
 
 | Type | Chart Version | App Version |
 | ---- | ------------- | ----------- |
@@ -7,15 +6,15 @@ Rancher-Demo-App Chart
 
 ## Installing the Chart
 ```bash
-helm install -n 
+helm install -n
 ```
 ```bash
-helm status -n 
+helm status -n
 ```
 
 ## Uninstalling the Chart
 ```bash
-helm uninstall -n 
+helm uninstall -n
 ```
 
 ## Configuration
