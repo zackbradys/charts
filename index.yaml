@@ -6,87 +6,87 @@ entries:
     created: "2023-06-20T03:18:27.827031451Z"
     description: RGS - Rancher Demo Application
     digest: 08a94e940146578176a69c9469dc4ca21e9a5b878f63467cef3926cafc6e2e0a
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.4.0/rancher-demo-app-1.4.0.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.4.0/rancher-demo-app-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.1.0
     created: "2023-03-08T20:16:11.965410648Z"
     description: Rancher Federal Demo Application
     digest: a8eeb830602ab24a6ef6d14ab549985c8eefbc70726a51cdaddb54211b85a22c
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.3.1/rancher-demo-app-1.3.1.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.3.1/rancher-demo-app-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
     appVersion: 1.1.0
     created: "2023-03-07T22:00:53.610492026Z"
     description: Rancher Federal Demo Application
     digest: 9ca168579edee5636a3f950aa07d1388c6fdabca1b0ce2e51f8e41f539adf030
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.3.0/rancher-demo-app-1.3.0.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.3.0/rancher-demo-app-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-03-07T18:21:16.098381434Z"
     description: Rancher Federal Demo Application
     digest: f65e32255953ddadd816278afa6aaaf17362d1f4a7bf0cbec5bd15024ecd9f26
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.2.5/rancher-demo-app-1.2.5.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.2.5/rancher-demo-app-1.2.5.tgz
     version: 1.2.5
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-03-07T17:45:28.43346725Z"
     description: Rancher Federal Demo Application
     digest: ca77d91457fa9ca93782e90e5aef40103702b953bcb671b97f13069b964ca8b5
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.2.1/rancher-demo-app-1.2.1.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.2.1/rancher-demo-app-1.2.1.tgz
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-03-07T17:26:22.043974635Z"
     description: Rancher Federal Demo Application
     digest: bb79774de4a08b5001c39ac6d0caaff709f2b21cd86985a343910808cee2ad11
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.2.0/rancher-demo-app-1.2.0.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.2.0/rancher-demo-app-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-03-07T17:01:14.539394013Z"
     description: Rancher Federal Demo Application
     digest: c98a1a021964cf47696bbc7c1b33dd59c7948589e74e77df48d388495f66f2ee
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/main/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.1.1/rancher-demo-app-1.1.1.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.1.1/rancher-demo-app-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2023-03-07T16:59:19.296996817Z"
     description: Rancher Federal Demo Application
     digest: 8649f04074f6bcc684efb881194aa823779093de71753b1af4ad66cf3f331a06
-    icon: https://raw.githubusercontent.com/zackbradys/helm-charts/charts/rancher-demo-app/rfed-logo-stacked.png
+    icon: https://raw.githubusercontent.com/zackbradys/charts/charts/rancher-demo-app/rfed-logo-stacked.png
     name: rancher-demo-app
     type: application
     urls:
-    - https://github.com/zackbradys/helm-charts/releases/download/rancher-demo-app-1.0.1/rancher-demo-app-1.0.1.tgz
+    - https://github.com/zackbradys/charts/releases/download/rancher-demo-app-1.0.1/rancher-demo-app-1.0.1.tgz
     version: 1.0.1
 generated: "2023-06-20T03:18:27.827558549Z"
