@@ -3,7 +3,7 @@
 ## About Me
 A little bit Zack Brady, his history, and what he's done in the industry.
 - Former Contractor
-- U.S. Military Veteran
+- U.S. Military Reservist
 - Open-Source Contributor
 - Built and Exited a Digital Firm
 - Active Volunteer Firefighter/EMT
