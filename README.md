@@ -1,24 +1,16 @@
 # Helm Charts Repository
 
-## About Me
-
-A little bit about me and my history in the industry. If you have any questions, please reach out to me at zhbrady@zackbrady.com!
-
-- Former Contractor
-- U.S. Military Reservist
-- Open-Source Contributor
-- Built and Exited a Digital Firm
-- Active Volunteer Firefighter/EMT
-
 ## Configuration
 
 ### Adding the Helm Chart via CLI:
+
 ```bash
 helm repo add zackbradys https://zackbradys.github.io/charts
 helm repo update
 ```
 
 ### Adding the Helm Chart via Rancher Manager:
+
 1. Authenticate into the Rancher Manager UI
 2. Open the local cluster or downstream cluster
 3. Click into Apps -> Charts -> Repositories
